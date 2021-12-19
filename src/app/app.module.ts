@@ -4,8 +4,8 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
 import { TableEditableComponent } from './table-editable/table-editable.component';
+
 
 @NgModule({
   declarations: [
