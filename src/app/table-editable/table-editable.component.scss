@@ -1,12 +1,19 @@
 @media all and (min-width: 768px) {
     tr  {
-      td {
+      td.first-column {
         vertical-align: middle !important;
+        background-color: #c8e6c9;
       }
       span {
         &:not([class]) {
           padding: 1rem 1rem;
         }
+      }
+    }
+
+    tr  {
+      th {
+        background-color: #2E7D32;
       }
     }
   }
